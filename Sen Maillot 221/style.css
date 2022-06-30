@@ -1,0 +1,104 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+li{
+    list-style-type: none;
+    float: left;
+    margin-left: 55px;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: burlywood;
+    border-radius: 20px;
+}
+.logo img{
+    border-radius: 25px;
+    box-shadow: 3px 2px 1px 1px black;
+}
+.menu li a{
+    color: black;
+    font-size: 1.2em;
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow: 3px 2px 2px white;
+}
+input{
+    margin: -12px 5px;
+    padding: 15px;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+.menu li a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+section{
+    margin-top: 50px;
+    align-items: center;
+}
+.article{
+    display: flex;
+    flex-wrap: wrap;
+}
+.article img{
+    margin-left: 30px;
+    height: 225px;
+    width: 255px;
+    border-radius: 18px;
+    box-shadow: 3px 2px 2px chocolate;
+}
+.cart{
+    padding-top: 60px;
+    margin-left: 45px;
+}
+img:hover{
+    zoom: 102%;
+}
+.video{
+    margin-top: 80px;
+    width: 90%;
+    margin-left: 80px;
+    height: 435px;
+}  
+.video iframe{
+    border: none;
+    border-radius: 15px;
+    width: 100%; 
+    align-items: center;
+    height: 350px;
+}
+footer{
+    margin-top: 100px;
+    background-color: black;
+    color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+}
+footer .media{
+    display: flex;
+}
+.media p{
+    margin-right: 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 100%;padding: 8px;
+    text-align: center;
+    width: 20px;
+    cursor: pointer;
+}
